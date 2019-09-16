@@ -1,0 +1,38 @@
+{
+  "name": "eslint-config-jp",
+  "version": "1.0.0",
+  "description": "Eslint, Prettier config",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "prettier.js",
+    "prettier.config.js"
+  ],
+  "author": "Jarek Pelczynski",
+  "license": "MIT",
+  "homepage": "https://github.com/jarekpelczynski/eslint-config-jp#readme",
+  "bugs": {
+    "url": "https://github.com/jarekpelczynski/eslint-config-jp/issues"
+  },
+  "peerDependencies": {
+    "babel-eslint": ">=10.0.2 <11",
+    "eslint": ">=5.16.0 <6",
+    "eslint-config-airbnb": ">=17.1.1 <18",
+    "eslint-config-prettier": ">=5.1.0 <6",
+    "eslint-plugin-import": ">=2.18.2 <3",
+    "eslint-plugin-jest": ">=22.12.0 <23",
+    "eslint-plugin-jsx-a11y": ">=6.2.3 <7",
+    "eslint-plugin-prettier": ">=3.1.0 <4",
+    "eslint-plugin-react": ">=7.14.2 <8",
+    "prettier": ">=1.18.2 <2"
+  },
+  "scripts": {
+    "prepare": "install-peers"
+  },
+  "devDependencies": {
+    "install-peers-cli": "^2.1.1"
+  },
+  "dependencies": {
+    "eslint": ">=5.16.0 <6"
+  }
+}
